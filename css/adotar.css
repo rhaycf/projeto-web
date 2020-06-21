@@ -1,0 +1,35 @@
+#home header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home header .menu a {
+    text-decoration: none;
+}
+
+#home header .menu .selecionado {
+    background-color: var(--title-color);
+    color: white;
+    font-weight: bold;
+}
+
+#album {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#album .card {
+    margin: 15px;
+}
+
+#album .card a {
+    background-color: var(--title-color);
+    border: none;
+    font-weight: bold;
+}
+
+#album .card .adotado a {
+    background-color: gray;
+}

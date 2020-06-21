@@ -1,0 +1,98 @@
+#home header .menu .selecionado {
+    background-color: var(--title-color);
+    color: white;
+    font-weight: bold;
+}
+
+.cadastro {
+    margin: 20px;
+}
+
+.cadastro a {
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form fieldset {
+    background-color: bisque;
+    margin: 45px;
+    padding: 35px;
+    width: 70vw;
+}
+
+form fieldset .campos label {
+    color: var(--title-color);
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+form fieldset .campos input {
+    margin-bottom: 15px;
+    padding: 2px 5px 2px 5px;
+    width: 30vw;
+}
+
+form fieldset .campos select {
+    margin-bottom: 15px;
+    height: 33px;
+    width: 30vw;
+}
+
+form fieldset .campos textarea {
+    margin-bottom: 7px;
+    padding: 7px;
+    resize: none;
+    height: 20vh;
+    width: 30vw;
+}
+
+form fieldset .campos .num {
+    padding: 2px 5px 2px 5px;
+    width: 145px;
+}
+
+form fieldset .campos .sexo {
+    width: 145px;
+}
+
+form fieldset .grupo-campos {
+    display: flex;
+}
+
+form fieldset .grupo-campos .campos {
+    padding-right: 25px;
+}
+
+form fieldset .button {
+    display: flex;
+    justify-content: space-between;
+}
+
+form fieldset .botao input {
+    background-color: var(--title-color);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+form fieldset .botao input:hover {
+    background-color: #ff6437;
+}
+
+form fieldset .progress {
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 200px;
+}
+
+form fieldset .progress .progress-bar {
+    background-color: var(--title-color);
+}

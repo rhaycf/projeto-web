@@ -1,0 +1,41 @@
+#home {
+    margin: 0px 20px 20px 20px;
+}
+
+#home nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+
+}
+
+#home ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+#home ul li a {
+    color: var(--title-color);
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    padding: 150px;
+}
+
+.texto h1 {
+    color: var(--title-color);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    font-size: 25px;
+}
