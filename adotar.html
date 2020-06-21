@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdotaPet</title>
+  <!--CHAMANDO CSS-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/adotar.css">
+
+  <!--CHAMANDO SCRIPT-->
+  <script src="scripts/adotar.js"></script>
+
+  <!--ICONE ABA-->
+  <link rel="shortcut icon" href="img/aba1.png">
+
+  <!--FONT-FAMILY-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <div id="home">
+    <header>
+      <a href="index.html"><img src="img/logo4.jpg" alt="Logomarca"></a>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="selecionado" href="adotar.html">Adotar</a></li>
+          <li><a href="doar.html">Doar Pets</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <div id="album">
+    <div class="card" style="width: 18rem;">
+      <img src="img/abiguail1.png" class="card-img-top" alt="maltês">
+      <div class="card-body">
+        <h5 class="card-title">Abiguail</h5>
+        <p class="card-text">
+          Idade: 2 anos <br>
+          Raça: Maltês<br>
+          Sexo: Fêmea<br>
+          Como Sou: Gosto que escovem meus pêlos e de carinho.
+        </p>
+        <a onclick="adotAb();" href="#" class="btn btn-primary">Adotar</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/amelia.jpg" class="card-img-top" alt="golden retriever">
+      <div class="card-body">
+        <h5 class="card-title">Amélia</h5>
+        <p class="card-text">
+          Idade: 4 anos<br>
+          Raça: Golden Retriever<br>
+          Sexo: 4 anos<br>
+          Como Sou: Gosto de brincar na neve e com bolinhas.
+        </p>
+        <a onclick="adotAm();" href="#" class="btn btn-primary">Adotar</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/renan.jpg" class="card-img-top" alt="vira lata">
+      <div class="card-body">
+        <h5 class="card-title">Renan</h5>
+        <p class="card-text">
+          Idade: 7 meses <br>
+          Raça: Vira Lata <br>
+          Sexo: Macho <br>
+          Como Sou: Ligado no 220v e adoro dormir grudadinho.
+        </p>
+        <div class="adotado">
+          <a onclick="adotado();" href="#" class="btn btn-primary">Adotar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/scott.jpg" class="card-img-top" alt="vira lata">
+      <div class="card-body">
+        <h5 class="card-title">Scott</h5>
+        <p class="card-text">
+          Idade: 2 anos<br>
+          Raça: Vira Lata<br>
+          Sexo: Macho <br>
+          Como Sou: Gosto de brincar com terra e com frisbee.
+        </p>
+        <a onclick="adotSc();" href="#" class="btn btn-primary">Adotar</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/caramelo.jpg" class="card-img-top" alt="gato dormindo">
+      <div class="card-body">
+        <h5 class="card-title">Caramelo</h5>
+        <p class="card-text">
+          Idade: 8 meses <br>
+          Raça: - <br>
+          Sexo: Macho <br>
+          Como Sou: Sou bastante dengoso e adoro dormir.
+        </p>
+        <a onclick="adotCarm();" href="#" class="btn btn-primary">Adotar</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/pacoca.jpg" class="card-img-top" alt="gato filhote">
+      <div class="card-body">
+        <h5 class="card-title">Paçoca</h5>
+        <p class="card-text">
+          Idade: 5 meses <br>
+          Raça: - <br>
+          Sexo: Macho <br>
+          Como Sou: Sou novinho mas quero dominar o mundo.
+        </p>
+        <div class="adotado">
+          <a onclick="adotado();" href="#" class="btn btn-primary">Adotar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/tempestade.jpg" class="card-img-top" alt="gato recebendo carinho">
+      <div class="card-body">
+        <h5 class="card-title">Tempestade</h5>
+        <p class="card-text">
+          Idade: 5 anos <br>
+          Raça: - <br>
+          Sexo: Fêmea <br>
+          Como Sou: Adoro carinho e sou bem tranquila.
+        </p>
+        <div class="adotado">
+          <a onclick="adotado();" href="#" class="btn btn-primary">Adotar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/uni.png" class="card-img-top" alt="gato fantasiado de unicornio">
+      <div class="card-body">
+        <h5 class="card-title">Uni</h5>
+        <p class="card-text">
+          Idade: 2 anos <br>
+          Raça: - <br>
+          Sexo: Fêmea <br>
+          Como Sou: Sou bem tranquila e gosto muito de unicórnio.
+        </p>
+        <a onclick="adotUni();" href="#" class="btn btn-primary">Adotar</a>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
